@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 1418px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(105.54deg, #f4a764 -2.93%, #ffdec2 72.14%);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1415;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 54px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.info {
+  gap: 90px;
+}
+
+header button {
+  width: 168px;
+  height: 64px;
+  border-radius: 50px;
+  background-color: #1c1415;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+main {
+  padding-top: 144px;
+}
+
+section {
+  display: flex;
+  gap: 154px;
+  align-items: center;
+  color: #ffffff;
+}
+
+h1,
+h2,
+span {
+  font-family: "Sofia Sans", serif;
+  font-weight: 900;
+  letter-spacing: -1%;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 104.12px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 60.06px;
+}
+
+span {
+  color: #1c1415;
+}
+
+p {
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45.6px;
+  letter-spacing: 0%;
+  color: #1c1415cc;
+}
+
+h3 {
+  margin: 50px 0 70px 0;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 95.9px;
+  letter-spacing: -1%;
+}
